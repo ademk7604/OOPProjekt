@@ -16,10 +16,11 @@ public class Main {
         User myUser = new User("Atil","Instructor");
         System.out.println(myUser.name);
 
-        //Encapsulation
+        //Encapsulation // property lerin get yada set ne olmasini istiyordam orda private yapmis be belirtmisimdir.
         Musician james =new Musician("James","Guitar",50);{
-            System.out.println(james.getName());
-
+            james.setAge(72,"Atil"); // programci Atil sifresini girdiginde yasi degistrebildi asagida gordu.
+            System.out.println(james.getAge());
+    // normalde boyle kullanim olmaz Enc. anlamak icin kullandik. kucuk a ile atil yazdigimda run da 50 veriyor
         }
 
 

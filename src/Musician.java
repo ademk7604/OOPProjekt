@@ -30,7 +30,9 @@ public class Musician {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setAge(int age, String password) { // age i degistrimek isteyen bu sifreyide girsin oyle degistirsin de degilebilir
+        if (password.matches("Atil")){
+            this.age = age;
+        }
     }
 }
