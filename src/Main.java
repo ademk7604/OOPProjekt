@@ -21,6 +21,11 @@ public class Main {
             james.setAge(72,"Atil"); // programci Atil sifresini girdiginde yasi degistrebildi asagida gordu.
             System.out.println(james.getAge());
     // normalde boyle kullanim olmaz Enc. anlamak icin kullandik. kucuk a ile atil yazdigimda run da 50 veriyor
+
+            MusicianInheritance lars = new MusicianInheritance("Lars","Drums",55);
+            System.out.println(lars.sing());
+            System.out.println(lars.getAge());
+
         }
 
 
