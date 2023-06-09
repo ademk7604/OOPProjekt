@@ -17,6 +17,7 @@ public class Main {
 
         User myUser = new User("Atil","Instructor");
         System.out.println(myUser.name);
+        System.out.println(myUser.Information());
 
         //Encapsulation // property lerin get yada set ne olmasini istiyordam orda private yapmis be belirtmisimdir.
         Musician james =new Musician("James","Guitar",50);
@@ -47,6 +48,12 @@ public class Main {
         barley.test();
         barley.sing();
 
+        // Abstract & Interface
+
+        Piano myPiano = new Piano();
+        myPiano.brand = "Yamaha";
+        myPiano.isDigital = true;
+        myPiano.info();
 
     }
 }
